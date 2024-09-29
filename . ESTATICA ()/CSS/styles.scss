@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Estilos generales */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #0056b3;
+  --accent-color: #66ccff;
+  --text-color: #222;
+  --background-color: #fafafa;
+  --whatsapp-color: #25d366;
+}
+
+#accreditation {
+  padding-bottom: 4rem; /* Ajusta el espacio al final de Excelencia Global */
+}
+
+#elementos-mineros {
+  margin-top: 4rem; /* Añade espacio antes de Laboratorio para la industria minera */
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.title-container {
+  flex: 1;
+}
+
+.title-container h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+nav {
+  background-color: var(--secondary-color);
+  padding: 0.3rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 0.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1582719201952-ea63ac1671dc?q=80&w=2027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.hero-content h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.cta-button:hover {
+  background-color: #004080;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.call-button {
+  background-color: var(--accent-color);
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.service {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.accreditation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+
+.accreditation-content {
+  flex: 1;
+}
+
+.accreditation-image {
+  flex: 0 0 300px;
+  margin-left: 1.5rem;
+  width: 300px;
+  height: auto;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.whatsapp-sticky {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: var(--whatsapp-color);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-sticky img {
+  width: 25px;
+}
+
+.certifications {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--background-color);
+}
+
+.certification {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.cert-logo {
+  width: 100px;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+input,
+textarea {
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-container {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .title-container h1 {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .accreditation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accreditation-image {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
