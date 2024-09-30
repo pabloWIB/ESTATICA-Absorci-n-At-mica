@@ -28,34 +28,23 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<meta name="twitter:description" content="Absorción Atómica ofrece análisis de metales y minerales con resultados precisos y rápidos. Servicios acreditados por la ISO." />
+	<meta name="twitter:description"
+		content="Absorción Atómica ofrece análisis de metales y minerales con resultados precisos y rápidos. Servicios acreditados por la ISO." />
 	<meta name="twitter:image" content="IMG/FAVICON/favicon-32x32.png" />
 	<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "",
-        "url": "",
-        "logo": "",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+",
-            "contactType": ""
-        },
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "",
-            "addressLocality": "Ciudad",
-            "addressRegion": "",
-            "postalCode": "",
-            "addressCountry": "ES"
-        },
-        "sameAs": [
-            "",
-            ""
-        ]
-    }
-</script>
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Absorción Atómica",
+            "url": "https://laboratoriometalurgicoaa.com/",
+            "logo": "https://laboratoriometalurgicoaa.com/IMG/WEB/hero.jpg",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+527201731619",
+                "contactType": "Servicio al Cliente"
+            }
+        }
+    </script>
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link rel="stylesheet" href="CSS/styles.css" />
@@ -63,22 +52,22 @@
 </head>
 
 <body>
+
 	<header>
-		<div class="logo-container">
-			<img src="/api/placeholder/100/50" alt="Logo Absorción Atómica" class="logo">
-		</div>
 		<div class="title-container">
 			<h1>Absorción Atómica</h1>
 		</div>
 	</header>
+
 	<nav>
 		<ul>
 			<li><a href="#inicio">Inicio</a></li>
 			<li><a href="#servicios">Servicios</a></li>
-			<li><a href="#acreditacion">Acreditación</a></li>
+			<li><a href="#certifications">Acreditación</a></li>
 			<li><a href="#contacto">Contacto</a></li>
 		</ul>
 	</nav>
+
 	<section class="hero">
 		<div class="hero-content">
 			<h2>Análisis Especializado de Metales y Minerales</h2>
@@ -89,6 +78,7 @@
 			</div>
 		</div>
 	</section>
+
 	<main>
 		<section id="servicios">
 			<h2>Nuestros Servicios de Análisis</h2>
@@ -125,9 +115,11 @@
 		<!-- Excelencia Global -->
 		<section id="excelencia-global" class="accreditation">
 			<div class="accreditation-content">
-				<h2>Excelencia Global</h2>
-				<p>Nuestro laboratorio mantiene el cumplimiento de la Norma ISO/IEC 17025:2005 desde 2010, garantizando
-					la más alta calidad en nuestros análisis y servicios.</p>
+				<h2>Compromiso con la Excelencia: ISO/IEC 17025:2005</h2>
+				<p>Desde 2010, nuestro laboratorio se destaca por cumplir con la norma internacional ISO/IEC 17025:2005,
+					lo que garantiza la más alta calidad en nuestros análisis de metales y minerales. Este compromiso
+					nos permite ofrecer resultados precisos y confiables, respaldados por una acreditación reconocida en
+					la industria.</p>
 			</div>
 			<img src="https://images.unsplash.com/photo-1614308456595-a59d48697ea8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 				alt="ISO 17025:2005 Certificación" class="accreditation-image">
@@ -169,32 +161,67 @@
 			</div>
 		</section>
 		<!-- Certificaciones -->
-		<section id="certificaciones" class="certifications">
+		<section class="certifications" id="certifications">
 			<h2>Certificaciones y Acreditaciones</h2>
 			<div class="certification">
 				<img src="https://lh3.googleusercontent.com/proxy/s_ltRBwX80FmSxFjE-dnzqbYOTRU1aY1iRvNNOsYF4KzDiQyPHFvzKzpU-D6srvwjKdiL2U-cr9MLoPYzfwMA33CNaXRVHAhw6PrUQ"
-					alt="ISO 17025:2005 Certificación" class="cert-logo">
+					alt="Logo de ISO 17025:2005 Certificación" class="cert-logo">
 				<p>ISO/IEC 17025:2005 Certificado desde 2010</p>
 			</div>
 		</section>
+
 		<section id="contacto">
 			<h2>Contáctanos</h2>
-			<form action="/submit" method="POST">
-				<label for="nombre">Nombre:</label>
-				<input type="text" id="nombre" name="nombre" required>
 
+
+			<form action="" id="firstForm">
+				<label for="name">Nombre y Apellidos:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/user.svg" alt="Name">
+					</div>
+					<input class="input-getdata" type="text" id="name" name="name" autocomplete="name" placeholder="Juan David...">
+				</div>
+			
 				<label for="email">Correo Electrónico:</label>
-				<input type="email" id="email" name="email" required>
-
-				<label for="telefono">Teléfono:</label>
-				<input type="tel" id="telefono" name="telefono" required>
-
-				<label for="mensaje">Mensaje:</label>
-				<textarea id="mensaje" name="mensaje" required></textarea>
-
-				<button type="submit" class="cta-button call-button">Enviar</button>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/mail.svg" alt="email">
+					</div>
+					<input class="input-getdata" type="email" id="email" name="email" placeholder="tucorreo@correo:">
+				</div>
+			
+				<label for="cellphone">Teléfono:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/blackPhone.svg" alt="telephone">
+					</div>
+					<input class="input-getdata" type="tel" id="cellphone" name="cellphone" autocomplete="tel" placeholder="123 456 789">
+				</div>
+			
+				<label for="materialType">Tipo de material:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/type.svg" alt="Tipo de material">
+					</div>
+					<textarea name="materialType" id="materialType" placeholder="Ingresa el tipo de material"></textarea>
+				</div>
+			
+				<label for="elementToAnalyze">Elemento a analizar:</label>
+				<div class="inputs-container">
+					<div>
+						<img src="IMG/WEB/type.svg" alt="Elemento a analizar">
+					</div>
+					<textarea name="elementToAnalyze" id="elementToAnalyze" placeholder="Ingresa el elemento a analizar"></textarea>
+				</div>
+			
+				<div class="error-div-hide" id="findErrorsDiv"></div>
+				<button type="submit" value="ENVIAR">ENVIAR</button>
 			</form>
-			<p>También puedes contactarnos directamente al: <a href="tel:7201731619">720 173 1619</a></p>
+
+
+
+			<p>También puedes contactarnos directamente al: <a href="tel:527201731619">720 173 1619</a></p>
 		</section>
 	</main>
 	<footer>

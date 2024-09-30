@@ -2,6 +2,8 @@
 
 <h2 align="center">Página: <a href="https://laboratoriometalurgicoaa.com/">laboratoriometalurgicoaa</a></h2>
 
+<img src="IMG/WEB/hero.jpg"/>
+
 <h2 >Tecnologías usadas👨🏻‍💻</h2>
 <br>
 <h4>Front end: </h4>
