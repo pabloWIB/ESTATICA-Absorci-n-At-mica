@@ -63,3 +63,11 @@ document.getElementById('firstForm').addEventListener('submit', function(event) 
         window.open(mailtoLink, '_blank');
     }
 });
+
+var año = new Date();
+
+// Obtiene el año actual
+var añoFecha = año.getFullYear(); // 'getFullYear()' es un método, debe tener paréntesis
+
+// Asigna el año actual al elemento con ID 'date'
+document.getElementById('date').innerText = añoFecha;

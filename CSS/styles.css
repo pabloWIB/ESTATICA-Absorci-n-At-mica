@@ -10,6 +10,10 @@
   --whatsapp-color: #25d366;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .elementos-mineros {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.freepik.com/foto-gratis/vista-colinas-dia-soleado_23-2147770316.jpg?t=st=1727539283~exp=1727542883~hmac=39cacf05297f6e40b17170209c77c510029e14f7b048aa9337504992fe7ed7e7&w=1380");
   background-size: cover;
@@ -139,7 +143,7 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .hero {

@@ -1,11 +1,8 @@
-1. En el formulario en lugar de mensaje poner (tipo de material) y abajo otro de (elemento a analizar), Conectarlo a correo con dominio ventas@dominio.
-
-
-2. Agregar fav icon.
+1. En el formulario en lugar de mensaje poner (tipo de material) y abajo otro de (elemento a analizar), Conectarlo a correo con dominio ventas@dominio. (Listo)
+2. Agregar fav icon. (Listo)
 3. Cambiar el texto de excelencia global a algo con más SEO. (Listo)
 4. Espacio para el logo mejor quitarlo y hacer el botón de WhatsApp más grande. (Listo)
 5. Organizar Links a WhatsApp y llamadas. (Listo)
-
 
 Cambios adicionales
 
@@ -13,6 +10,5 @@ Cambios adicionales
 2. Animación hover de WhatsApp
 3. Agregar Scroll Smoth
 4. Arreglar id de "Acreditación"
-
-
-5. Agregar place holderls en el formulario
+5. Agregar place holders e imagénes en el formulario
+6. Cambiar la fecha de derechos reservados para que se actualice cada año
