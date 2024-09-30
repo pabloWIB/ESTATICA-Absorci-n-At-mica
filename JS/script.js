@@ -59,7 +59,7 @@ document.getElementById('firstForm').addEventListener('submit', function(event) 
 
         console.log(info); 
 
-        let mailtoLink = 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ventas@dominio.com' + '&body=' + encodeURIComponent(info);
+        let mailtoLink = 'https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=Ventas@laboratoriometalurgicoaa.com' + '&body=' + encodeURIComponent(info);
         window.open(mailtoLink, '_blank');
     }
 });
